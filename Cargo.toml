@@ -1,0 +1,10 @@
+[package]
+name = "rust-mail-sender"
+version = "0.1.0"
+authors = ["Daniel Naschberger <daniel@naschi.at>"]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.15.0"
+lettre = "0.9"
+lettre_email = "0.9"
